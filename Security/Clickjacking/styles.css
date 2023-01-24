@@ -1,0 +1,61 @@
+* {
+    font-family: Open Sans !important;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+html, body {margin:0px;}
+input{
+    width: 326px;
+    height: 48px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    border-radius: 4px;
+    border: 1px solid rgb(221, 221, 221);
+    color: rgb(51, 51, 51);
+    outline: currentcolor none medium;
+}
+iframe{
+    margin: none;
+    padding: none;
+    border: none;
+    line-height: 0;
+    float: left; 
+}
+#fakeEmail{
+    position: absolute;
+    z-index: 999999;
+    top:288px;
+    left:247px;
+    padding: 0px 16px;
+}
+#fakePassword{
+    position: absolute;
+    z-index: 999999;
+    top:351px;
+    left:247px;
+    height: 48px;
+    padding: 0px 16px;
+}
+
+button{
+    position: absolute;
+    z-index: 999999;
+    left:247px;
+    top:415px;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 48px;
+    justify-content: center;
+    outline: currentcolor none medium;
+    vertical-align: middle;
+    width: 360px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: Open Sans, sans-serif;
+    background: rgb(64, 126, 255) none repeat scroll 0% 0%;
+    border: 1px solid rgb(64, 126, 255);
+    color: rgb(255, 255, 255);
+    padding: 0px 16px;
+}

